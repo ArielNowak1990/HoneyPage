@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
-function HomeHeads() {
+function Footer() {
  return (
   <div>
-  to jest heads
+  to jest footer
   </div>
  );
 }
-export default HomeHeads;
+export default Footer;
