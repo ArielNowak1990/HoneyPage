@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
+import DemoCarousel from "./Carousel";
 
 function HomeHeads() {
  return (
-  <div>
-  to jest heads
-  </div>
+  <DemoCarousel/>
  );
 }
 export default HomeHeads;
