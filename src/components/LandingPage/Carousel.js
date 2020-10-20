@@ -72,7 +72,7 @@ function Carousel() {
  return (
      <div className={"carousel"}>
       <button onClick={handlePrev}>&lt;</button>
-      <p> {carousel_element()}</p>
+      <div> {carousel_element()}</div>
       <button onClick={handleNext}>&gt;</button>
      </div>
  );
