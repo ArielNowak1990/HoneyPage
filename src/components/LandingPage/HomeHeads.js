@@ -12,10 +12,18 @@ function HomeHeads() {
        <Carousel/>
        <div className={"nav"}>
            <ul className={"menu"}>
-               <ul>PRODUKTY PSZCZELE</ul>
-
-               <ul>HODOWLA PSZCZÓL</ul>
-               <ul>INNE PRODUKTY</ul>
+               <ul>PRODUKTY PSZCZELE
+                    <li>Miody</li>
+                    <li>Propolis</li>
+                    <li>Pyłek</li>
+                    <li>Przegryzka wyskokowa</li></ul>
+               <ul>HODOWLA PSZCZÓL
+                    <li>Matki pszczele</li>
+                    <li>Odkłady</li>
+                    <li>Rodziny Przezimowane</li></ul>
+               <ul>INNE PRODUKTY
+                   <li>Ule poliuretanowe</li>
+                   <li>Karmniki</li></ul>
                <ul>O NASZEJ PASIECE</ul>
                <ul>KONTAKT</ul>
            </ul>
