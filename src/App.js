@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './scss/main.scss';
 import HomeHeads from "./components/LandingPage/HomeHeads";
 import MainSection from "./components/LandingPage/MainSection";
 import Footer from "./components/LandingPage/Footer";

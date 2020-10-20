@@ -13,7 +13,7 @@ function Carousel() {
   if (counter === 0) {
    return (
        <>
-        <p>Z nami masz więcej czasu na wakacje!</p>
+        {/*<p>Z nami masz więcej czasu na wakacje!</p>*/}
         <img src={image1} alt="wakacje"/>
        </>
    )
@@ -21,7 +21,7 @@ function Carousel() {
   if (counter === 1) {
    return (
        <>
-        <p>Kurier dostarczy materiał na czas!</p>
+        {/*<p>Kurier dostarczy materiał na czas!</p>*/}
         <img src={image2} alt="kurier"/>
        </>
    )
@@ -29,7 +29,7 @@ function Carousel() {
   if (counter === 2) {
    return (
        <>
-        <p>Masz pewność że nie przepłacisz!</p>
+        {/*<p>Masz pewność że nie przepłacisz!</p>*/}
         <img src={image3} alt="pieniądze"/>
        </>
    )
@@ -37,7 +37,7 @@ function Carousel() {
   if (counter === 3) {
    return (
        <>
-        <p>Najprostszy sposób aby zyskać to wszystko!</p>
+        {/*<p>Najprostszy sposób aby zyskać to wszystko!</p>*/}
         <img src={image4} alt="zegar"/>
        </>
    )
@@ -72,7 +72,7 @@ function Carousel() {
  return (
      <div className={"carousel"}>
       <button onClick={handlePrev}>&lt;</button>
-      <div> {carousel_element()}</div>
+      <div className={"carousel_img"}> {carousel_element()}</div>
       <button onClick={handleNext}>&gt;</button>
      </div>
  );
