@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: calc(100vh - 10px);
 
   .logo_name{
     display: flex;
@@ -79,20 +79,33 @@ header {
         border-top: 3px solid orangered;
         color: orangered;
         font-weight: bold;
+      }
+    }
+
+    .menu_small{
+      .menu_small_productMain,
+      .menu_small_productBee,
+      .menu_small_productOther{
+        width: 100%;
+        display: flex;
+        position: absolute;
+        height: 10vh;
+        bottom: 10vh;
+        left: 0;
+        background-color: yellow;
+        border-top: 3px solid orangered;
+        color: orangered;
+        font-weight: bold;
         li{
-          display: none;
+          width: 25%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
-        &:hover{
-          li{
-            display: block;
-            //position: fixed;
-            bottom: 10vh;
-            width: 20vw;
-            margin-left: 20px;
-          }
-        }
+      }
+      .none{
+        display: none;
       }
     }
   }
-
 }

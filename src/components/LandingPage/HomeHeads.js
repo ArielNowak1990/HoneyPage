@@ -1,8 +1,33 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Carousel from "./Carousel";
 import logo from "../../assets/Logo.png"
+import MenuSmall from "./MenuSmall";
 
 function HomeHeads() {
+    const [counters, setCounters] = useState([0,0,0])
+
+    const handleProductMain =()=> {
+    let counter = [...counters]
+    if (counter[0] === 0) {counter[0]=1} else {counter[0]=0}
+    counter[1] = 0;
+    counter[2] = 0;
+    setCounters([...counter])
+    }
+    const handleProductBee =()=> {
+        let counter = [...counters]
+        if (counter[1] === 0) {counter[1]=1} else {counter[1]=0}
+        counter[0] = 0;
+        counter[2] = 0;
+        setCounters([...counter])
+    }
+    const handleProductOther =()=> {
+        let counter = [...counters]
+        if (counter[2] === 0) {counter[2]=1} else {counter[2]=0}
+        counter[1] = 0;
+        counter[0] = 0;
+        setCounters([...counter])
+    }
+
  return (
      <header>
        <div className={"logo_name"}>
@@ -12,21 +37,13 @@ function HomeHeads() {
        <Carousel/>
        <div className={"nav"}>
            <ul className={"menu"}>
-               <ul>PRODUKTY PSZCZELE
-                    <li>Miody</li>
-                    <li>Propolis</li>
-                    <li>Pyłek</li>
-                    <li>Przegryzka wyskokowa</li></ul>
-               <ul>HODOWLA PSZCZÓL
-                    <li>Matki pszczele</li>
-                    <li>Odkłady</li>
-                    <li>Rodziny Przezimowane</li></ul>
-               <ul>INNE PRODUKTY
-                   <li>Ule poliuretanowe</li>
-                   <li>Karmniki</li></ul>
-               <ul>O NASZEJ PASIECE</ul>
-               <ul>KONTAKT</ul>
+               <ul className={"menu_productMain"} onClick={handleProductMain}>PRODUKTY PSZCZELE</ul>
+               <ul className={"menu_productBee"} onClick={handleProductBee}>HODOWLA PSZCZÓL</ul>
+               <ul className={"menu_productOther"} onClick={handleProductOther}>INNE PRODUKTY</ul>
+               <ul className={"menu_aboutUs"}>O NASZEJ PASIECE</ul>
+               <ul className={"menu_contact"}>KONTAKT</ul>
            </ul>
+           <MenuSmall counters={counters}/>
        </div>
      </header>
  );
