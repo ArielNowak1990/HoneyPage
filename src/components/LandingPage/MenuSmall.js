@@ -13,10 +13,10 @@ function MenuSmall({counters}) {
         return (
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productMain"}>
-                    <li>Miody</li>
-                    <li>Propolis</li>
-                    <li>Pyłek</li>
-                    <li>Przegryzka wyskokowa</li>
+                    <li>MIODY</li>
+                    <li>PROPOLIS</li>
+                    <li>PYLEK</li>
+                    <li>PRZEGRYZKA WYSKOKOWA</li>
                 </ul>
             </ul>
         );
@@ -26,9 +26,9 @@ function MenuSmall({counters}) {
         return (
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productBee"}>
-                    <li>Matki pszczele</li>
-                    <li>Odkłady</li>
-                    <li>Rodziny Przezimowane</li>
+                    <li>MATKI PSZCZELE</li>
+                    <li>ODKLADY</li>
+                    <li>RODZINY PRZEZIMOWANE</li>
                 </ul>
             </ul>
         );
@@ -38,8 +38,8 @@ function MenuSmall({counters}) {
         return (
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productOther"}>
-                    <li>Ule poliuretanowe</li>
-                    <li>Karmniki</li>
+                    <li>ULE POLIURETANOWE</li>
+                    <li>KARMNIKI</li>
                 </ul>
             </ul>
         );
