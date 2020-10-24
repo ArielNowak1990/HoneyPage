@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from "react-router-dom";
 
 function MenuSmall() {
 
@@ -54,10 +55,10 @@ function MenuSmall() {
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productMain"}>
-                    <li>MIODY</li>
-                    <li>PROPOLIS</li>
-                    <li>PYLEK</li>
-                    <li>PRZEGRYZKA WYSKOKOWA</li>
+                    <li><Link to='/productsMain/#honey'>MIODY</Link></li>
+                    <li><Link to='/productsMain/#propolis'>PROPOLIS</Link></li>
+                    <li><Link to='/productsMain/#cloud'>PYLEK</Link></li>
+                    <li><Link to='/productsMain/#alcohol'>PRZEGRYZKA WYSKOKOWA</Link></li>
                 </ul>
             </ul>
                 </>
@@ -76,9 +77,9 @@ function MenuSmall() {
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productBee"}>
-                    <li>MATKI PSZCZELE</li>
-                    <li>ODKLADY</li>
-                    <li>RODZINY PRZEZIMOWANE</li>
+                    <li><Link to='/productsMain/#honey'>MATKI PSZCZELE</Link></li>
+                    <li><Link to='/productsMain/#honey'>ODKLADY</Link></li>
+                    <li><Link to='/productsMain/#honey'>RODZINY PRZEZIMOWANE</Link></li>
                 </ul>
             </ul>
                 </>
@@ -97,8 +98,8 @@ function MenuSmall() {
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productOther"}>
-                    <li>ULE POLIURETANOWE</li>
-                    <li>KARMNIKI</li>
+                    <li><Link to='/productsMain/#honey'>ULE POLIURETANOWE</Link></li>
+                    <li><Link to='/productsMain/#honey'>KARMNIKI</Link></li>
                 </ul>
             </ul>
                 </>
