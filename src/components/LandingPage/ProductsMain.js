@@ -1,22 +1,19 @@
 import React, {useState} from 'react';
-import Carousel from "./Carousel";
 import logo from "../../assets/Logo.png"
 import MenuSmall from "./MenuSmall";
+import Honey from "./Honey";
+import Propolis from "./Propolis";
+import Cloud from "./Cloud";
+import Alcohol from "./Alcohol";
 
-function HomeHeads() {
-
-
+function ProductsMain() {
  return (
-     <header>
-       <div className={"logo_name"}>
-        <div><img src={logo} alt="logo" className={"logo"}/></div>
-        <h3><span>P</span>ASIEKA <span>K</span>OCIOLEK</h3>
-       </div>
-       <Carousel/>
-       <div className={"nav"}>
-           <MenuSmall/>
-       </div>
-     </header>
+     <div className={"container_vertical"}>
+      <Honey/>
+      <Propolis/>
+      <Cloud/>
+      <Alcohol/>
+     </div>
  );
 }
-export default HomeHeads;
+export default ProductsMain;
