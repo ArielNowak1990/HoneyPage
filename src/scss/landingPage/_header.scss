@@ -1,9 +1,18 @@
+@keyframes logoDrive {
+  from{
+    transform: translateX(-25vw) rotate(-360deg);
+
+  }
+  to{
+    transform: translateX(0px) rotate(0deg);
+  }
+}
+
 header {
   height: calc(100vh - 10px);
   a{
     color: inherit;
   }
-
   .logo_name{
     display: flex;
     justify-content: space-around;
@@ -16,6 +25,7 @@ header {
       margin-top: 110px;
       height: 20vh;
       z-index: 2;
+      animation: logoDrive 4s ease;
     }
     div{
       font-size: 2em;
