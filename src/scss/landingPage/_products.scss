@@ -1,0 +1,27 @@
+
+.container_vertical{
+  height: 98vh;
+  display: flex;
+
+
+  .honey{
+    height: 100%;
+    width: 100vw;
+    background-color: yellow;
+  }
+  .propolis{
+    height: 100%;
+    width: 100vw;
+    background-color: green;
+  }
+  .cloud{
+    height: 100%;
+    width: 100vw;
+    background-color: orange;
+  }
+  .alcohol{
+    height: 100%;
+    width: 100vw;
+    background-color: yellowgreen;
+  }
+}
