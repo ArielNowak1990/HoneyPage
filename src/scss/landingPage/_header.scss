@@ -63,12 +63,17 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
     .menu{
       display: flex;
       justify-content: space-around;
       align-items: center;
       width: 100%;
       height: 100%;
+      .active{
+        color: orangered;
+      }
+
       ul{
         width: 20%;
         height: 100%;
@@ -79,6 +84,10 @@ header {
         border-top: 3px solid orangered;
         color: white;
         font-weight: bold;
+        &:hover{
+          font-size: 1.4em;
+          color: orangered;
+        }
       }
     }
 
@@ -96,11 +105,19 @@ header {
         border-top: 3px solid orangered;
         color: white;
         font-weight: bold;
+        cursor: pointer;
         li{
           width: 25%;
           display: flex;
           justify-content: center;
           align-items: center;
+          &:hover{
+            font-size: 1.4em;
+            color: orangered;
+          }
+          .active{
+            color: orangered;
+          }
         }
       }
       .none{
