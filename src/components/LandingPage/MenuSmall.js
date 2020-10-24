@@ -34,8 +34,8 @@ function MenuSmall() {
                 <ul className={"menu_productMain"} onClick={handleProductMain}>PRODUKTY PSZCZELE</ul>
                 <ul className={"menu_productBee"} onClick={handleProductBee}>HODOWLA PSZCZÓL</ul>
                 <ul className={"menu_productOther"} onClick={handleProductOther}>INNE PRODUKTY</ul>
-                <ul className={"menu_aboutUs"}>O NASZEJ PASIECE</ul>
-                <ul className={"menu_contact"}>KONTAKT</ul>
+                <ul className={"menu_aboutUs"}><Link to='/aboutUs'>O NASZEJ PASIECE</Link></ul>
+                <ul className={"menu_contact"}><Link to='/contact'>KONTAKT</Link></ul>
             </ul>
             <ul className={"menu_small none"}>
             </ul>
@@ -50,8 +50,8 @@ function MenuSmall() {
                 <ul className={"menu_productMain active"} onClick={handleProductMain}>PRODUKTY PSZCZELE</ul>
                 <ul className={"menu_productBee"} onClick={handleProductBee}>HODOWLA PSZCZÓL</ul>
                 <ul className={"menu_productOther"} onClick={handleProductOther}>INNE PRODUKTY</ul>
-                <ul className={"menu_aboutUs"}>O NASZEJ PASIECE</ul>
-                <ul className={"menu_contact"}>KONTAKT</ul>
+                <ul className={"menu_aboutUs"}><Link to='/aboutUs'>O NASZEJ PASIECE</Link></ul>
+                <ul className={"menu_contact"}><Link to='/contact'>KONTAKT</Link></ul>
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productMain"}>
@@ -72,14 +72,14 @@ function MenuSmall() {
                 <ul className={"menu_productMain"} onClick={handleProductMain}>PRODUKTY PSZCZELE</ul>
                 <ul className={"menu_productBee active"} onClick={handleProductBee}>HODOWLA PSZCZÓL</ul>
                 <ul className={"menu_productOther"} onClick={handleProductOther}>INNE PRODUKTY</ul>
-                <ul className={"menu_aboutUs"}>O NASZEJ PASIECE</ul>
-                <ul className={"menu_contact"}>KONTAKT</ul>
+                <ul className={"menu_aboutUs"}><Link to='/aboutUs'>O NASZEJ PASIECE</Link></ul>
+                <ul className={"menu_contact"}><Link to='/contact'>KONTAKT</Link></ul>
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productBee"}>
-                    <li><Link to='/productsMain/#honey'>MATKI PSZCZELE</Link></li>
-                    <li><Link to='/productsMain/#honey'>ODKLADY</Link></li>
-                    <li><Link to='/productsMain/#honey'>RODZINY PRZEZIMOWANE</Link></li>
+                    <li><Link to='/productsBee/#'>MATKI PSZCZELE</Link></li>
+                    <li><Link to='/productsBee/#'>ODKLADY</Link></li>
+                    <li><Link to='/productsBee/#'>RODZINY PRZEZIMOWANE</Link></li>
                 </ul>
             </ul>
                 </>
@@ -93,13 +93,13 @@ function MenuSmall() {
                 <ul className={"menu_productMain"} onClick={handleProductMain}>PRODUKTY PSZCZELE</ul>
                 <ul className={"menu_productBee"} onClick={handleProductBee}>HODOWLA PSZCZÓL</ul>
                 <ul className={"menu_productOther active"} onClick={handleProductOther}>INNE PRODUKTY</ul>
-                <ul className={"menu_aboutUs"}>O NASZEJ PASIECE</ul>
-                <ul className={"menu_contact"}>KONTAKT</ul>
+                <ul className={"menu_aboutUs"}><Link to='/aboutUs'>O NASZEJ PASIECE</Link></ul>
+                <ul className={"menu_contact"}><Link to='/contact'>KONTAKT</Link></ul>
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productOther"}>
-                    <li><Link to='/productsMain/#honey'>ULE POLIURETANOWE</Link></li>
-                    <li><Link to='/productsMain/#honey'>KARMNIKI</Link></li>
+                    <li><Link to='/productsOther/#'>ULE POLIURETANOWE</Link></li>
+                    <li><Link to='/productsOther/#'>KARMNIKI</Link></li>
                 </ul>
             </ul>
                 </>
@@ -112,8 +112,8 @@ function MenuSmall() {
                     <ul className={"menu_productMain"} onClick={handleProductMain}>PRODUKTY PSZCZELE</ul>
                     <ul className={"menu_productBee"} onClick={handleProductBee}>HODOWLA PSZCZÓL</ul>
                     <ul className={"menu_productOther"} onClick={handleProductOther}>INNE PRODUKTY</ul>
-                    <ul className={"menu_aboutUs"}>O NASZEJ PASIECE</ul>
-                    <ul className={"menu_contact"}>KONTAKT</ul>
+                    <ul className={"menu_aboutUs"}><Link to='/aboutUs'>O NASZEJ PASIECE</Link></ul>
+                    <ul className={"menu_contact"}><Link to='/contact'>KONTAKT</Link></ul>
                 </ul>
             <div>
                 <ul className={"menu_small "}>
