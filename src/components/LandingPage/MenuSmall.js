@@ -112,8 +112,8 @@ function MenuSmall() {
                     <ul className={"menu_productMain"} onClick={handleProductMain}>PRODUKTY PSZCZELE</ul>
                     <ul className={"menu_productBee"} onClick={handleProductBee}>HODOWLA PSZCZÓL</ul>
                     <ul className={"menu_productOther"} onClick={handleProductOther}>INNE PRODUKTY</ul>
-                    <ul className={"menu_aboutUs"}><Link to='/aboutUs'>O NASZEJ PASIECE</Link></ul>
-                    <ul className={"menu_contact"}><Link to='/contact'>KONTAKT</Link></ul>
+                    <ul className={"menu_aboutUs"}> <Link to='/aboutUs'>O NASZEJ PASIECE</Link> </ul>
+                    <ul className={"menu_contact"}> <Link to='/contact'>KONTAKT</Link> </ul>
                 </ul>
             <div>
                 <ul className={"menu_small "}>
