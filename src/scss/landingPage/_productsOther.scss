@@ -13,6 +13,23 @@
     background-position: center;
     background-attachment: fixed;
     overflow-x: hidden;
+    h3{
+      color: orangered;
+      display: inline-block;
+      padding: 20px;
+      font-size: 3em;
+      margin: 20px;
+      background-color: rgb(0, 0, 0);
+    }
+    p{
+      background-color: rgb(0, 0, 0);
+      color: white;
+      padding: 20px;
+      margin: 20px;
+      font-size: 1.3em;
+      line-height: 30px;
+      width: 60vw;
+    }
   }
   .poliuretanowe{
     height: 100vh;
@@ -20,9 +37,27 @@
     background-color: white;
     background-image: url("../assets/poliuretanowy.jpg");
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
     background-attachment: fixed;
     overflow-x: hidden;
+    h3{
+      color: orangered;
+      display: inline-block;
+      padding: 20px;
+      font-size: 3em;
+      margin: 20px;
+      background-color: rgb(0, 0, 0);
+    }
+    p{
+      background-color: rgb(0, 0, 0);
+      color: white;
+      padding: 20px;
+      margin: 20px;
+      margin-top: 0px;
+      font-size: 1.3em;
+      line-height: 30px;
+      width: 60vw;
+    }
   }
 
 
