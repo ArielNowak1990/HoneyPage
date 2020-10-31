@@ -1,0 +1,150 @@
+.container_vertical{
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  width: calc(100vw - 17px);
+  overflow-x: hidden;
+
+  .family{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url("../assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  .mother{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    background-image: url("../assets/queen.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+  .odklady{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: white;
+    background-image: url("../assets/odklad.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+  }
+
+
+  .logo_fixed{
+    position: fixed;
+    transform: scale(0.7);
+    top: 40px;
+    right: 40px;
+    background-color: rgba(255, 169, 2, 0.47);
+    border-radius: 50%;
+  }
+
+  .qube_show{
+    position: fixed;
+    transform: scale(0.7);
+    bottom: 30px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid orangered;
+    border-left: 5px solid orangered;
+    transform: rotate(45deg);
+  }
+  .qube_hidden{
+    position: fixed;
+    transform: scale(0.7);
+    bottom: 25vh;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+    border-top: 5px solid orangered;
+    border-left: 5px solid orangered;
+    transform: rotate(225deg);
+  }
+
+  .nav{
+    a{
+      color: inherit;
+    }
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    .menu{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+
+      .active{
+        color: orangered;
+      }
+
+      ul{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-top: 3px solid orangered;
+        color: white;
+        font-weight: bold;
+        &:hover{
+          font-size: 1.4em;
+          color: orangered;
+        }
+      }
+    }
+
+    .menu_small{
+      .menu_small_productMain,
+      .menu_small_productBee,
+      .menu_small_productOther{
+        width: 100%;
+        display: flex;
+        position: absolute;
+        height: 10vh;
+        bottom: 10vh;
+        left: 0;
+        background-color: black;
+        border-top: 3px solid orangered;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        li{
+          width: 25%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &:hover{
+            font-size: 1.4em;
+            color: orangered;
+          }
+          .active{
+            color: orangered;
+          }
+        }
+      }
+      .none{
+        display: none;
+      }
+    }
+  }
+  .hidden{
+    display: none;
+  }
+}
