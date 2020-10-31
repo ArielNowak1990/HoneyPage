@@ -1,7 +1,7 @@
 .container_vertical{
   background-attachment: fixed;
   scroll-behavior: smooth;
-  width: 100vw;
+  width: calc(100vw - 17px);
   overflow-x: hidden;
 
   .honey{
