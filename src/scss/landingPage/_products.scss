@@ -1,25 +1,131 @@
 
+
 .container_vertical{
-  height: 98vh;
-  display: flex;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  width: 100vw;
+  overflow-x: hidden;
+
   .honey{
-    height: 100%;
+    height: 100vh;
     width: 100vw;
-    background-color: yellow;
+    background-color: black;
+    background-image: url("../assets/honey.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
   }
   .propolis{
-    height: 100%;
+    height: 100vh;
     width: 100vw;
-    background-color: green;
+    background-color: white;
+    background-image: url("../assets/propolis.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    overflow-x: hidden;
   }
   .cloud{
-    height: 100%;
+    height: 100vh;
     width: 100vw;
-    background-color: orange;
+    overflow-x: hidden;
+    background-color: black;
+    background-image: url("../assets/pylek.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
   }
   .alcohol{
-    height: 100%;
+    height: 100vh;
     width: 100vw;
-    background-color: yellowgreen;
+    background-color: white;
+    background-image: url("../assets/trojniak.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+  .nav{
+    a{
+      color: inherit;
+    }
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    .menu{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+
+      .active{
+        color: orangered;
+      }
+
+      ul{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        border-top: 3px solid orangered;
+        color: white;
+        font-weight: bold;
+        &:hover{
+          font-size: 1.4em;
+          color: orangered;
+        }
+      }
+    }
+
+    .menu_small{
+      .menu_small_productMain,
+      .menu_small_productBee,
+      .menu_small_productOther{
+        width: 100%;
+        display: flex;
+        position: absolute;
+        height: 10vh;
+        bottom: 10vh;
+        left: 0;
+        background-color: black;
+        border-top: 3px solid orangered;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        li{
+          width: 25%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &:hover{
+            font-size: 1.4em;
+            color: orangered;
+          }
+          .active{
+            color: orangered;
+          }
+        }
+      }
+      .none{
+        display: none;
+      }
+    }
+  }
+  .hidden{
+    display: none;
   }
 }

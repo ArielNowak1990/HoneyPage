@@ -3,7 +3,7 @@ function Honey() {
  return (
   <div className={"container_screen"}>
      <div className={"honey"} id={"honey"}>
-       to jest ekran honey
+      <div> to jest ekran honey </div>
      </div>
   </div>
  );

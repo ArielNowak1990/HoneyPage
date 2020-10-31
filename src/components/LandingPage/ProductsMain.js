@@ -13,6 +13,9 @@ function ProductsMain() {
       <Propolis/>
       <Cloud/>
       <Alcohol/>
+         <div className={"nav hidden"}>
+             <MenuSmall/>
+         </div>
      </div>
  );
 }
