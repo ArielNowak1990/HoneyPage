@@ -26,7 +26,7 @@ function ProductsMain() {
                     <MenuSmall/>
                 </div>
                 <div><Link to='/'><img src={logo} alt="logo" className={"logo logo_fixed"}/></Link></div>
-                <div onClick={handleShowMenu}>++++++++++++</div>
+                <div onClick={handleShowMenu} className={"qube_show"}/>
             </div>
         );
     }
@@ -41,7 +41,7 @@ function ProductsMain() {
                     <MenuSmall/>
                 </div>
                 <div><Link to='/'><img src={logo} alt="logo" className={"logo logo_fixed"}/></Link></div>
-                <div onClick={handleShowMenu}>-------------</div>
+                <div onClick={handleShowMenu} className={"qube_hidden"}/>
             </div>
         );
     }
