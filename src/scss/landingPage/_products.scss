@@ -107,7 +107,6 @@
     .description2{
       margin-top: 5%;
       p{
-        width: 100%;
         width: 20vw;
       }
     }
@@ -159,25 +158,24 @@
 
   .qube_show{
     position: fixed;
-    transform: scale(0.7);
+    transform: scale(0.7) rotate(45deg);
     bottom: 30px;
     right: 100px;
     width: 50px;
     height: 50px;
     border-top: 5px solid orangered;
     border-left: 5px solid orangered;
-    transform: rotate(45deg);
+
   }
   .qube_hidden{
     position: fixed;
-    transform: scale(0.7);
+    transform: scale(0.7) rotate(225deg);
     bottom: 25vh;
     right: 100px;
     width: 50px;
     height: 50px;
     border-top: 5px solid orangered;
     border-left: 5px solid orangered;
-    transform: rotate(225deg);
   }
 
   .nav{

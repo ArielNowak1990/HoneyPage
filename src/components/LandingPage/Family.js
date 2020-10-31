@@ -3,7 +3,9 @@ function Family() {
  return (
   <div className={"container_screen"}>
      <div className={"family"} id={"family"}>
-      <div> to jest ekran family </div>
+         <h3>Rodziny przeimowane </h3>
+         <p>Oferujemy ule przezimowane corocznie w okresie wczesno wiosennym na Matkach Buckfast.</p>
+         <p>Oferujemy ule przezimowane corocznie w okresie wczesno wiosennym na Matkach Buckfast.</p>
      </div>
   </div>
  );
