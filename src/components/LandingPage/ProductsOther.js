@@ -1,8 +1,4 @@
 import React, { useState } from 'react';
-import Honey from "./Honey";
-import Propolis from "./Propolis";
-import Cloud from "./Cloud";
-import Alcohol from "./Alcohol";
 import MenuSmall from "./MenuSmall";
 import {Link} from "react-router-dom";
 import logo from "../../assets/Logo.png";

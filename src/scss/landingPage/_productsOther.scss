@@ -4,38 +4,27 @@
   width: calc(100vw - 17px);
   overflow-x: hidden;
 
-  .family{
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    background-image: url("../assets/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-attachment: fixed;
-    overflow-x: hidden;
-  }
-  .mother{
+  .hotel{
     height: 100vh;
     width: 100vw;
     background-color: white;
-    background-image: url("../assets/queen.jpg");
-    background-size: contain;
+    background-image: url("../assets/hotel.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-attachment: fixed;
     overflow-x: hidden;
   }
-  .odklady{
+  .poliuretanowe{
     height: 100vh;
     width: 100vw;
-    overflow-x: hidden;
     background-color: white;
-    background-image: url("../assets/odklad.jpg");
+    background-image: url("../assets/poliuretanowy.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
     background-attachment: fixed;
+    overflow-x: hidden;
   }
+
 
 
   .logo_fixed{
