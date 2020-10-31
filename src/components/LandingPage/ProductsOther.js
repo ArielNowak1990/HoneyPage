@@ -6,6 +6,8 @@ import Alcohol from "./Alcohol";
 import MenuSmall from "./MenuSmall";
 import {Link} from "react-router-dom";
 import logo from "../../assets/Logo.png";
+import Hotel from "./Hotel";
+import Poliuretanowe from "./Poliuretanowe";
 function ProductsOther() {
  const [counters, setCounters] = useState([0])
 
@@ -17,8 +19,8 @@ function ProductsOther() {
  if (counters[0]===0){
   return (
       <div className={"container_vertical"}>
-       <Honey/>
-       <Propolis/>
+       <Hotel/>
+       <Poliuretanowe/>
        <div className={"nav hidden"}>
         <MenuSmall/>
        </div>
@@ -30,8 +32,8 @@ function ProductsOther() {
  if (counters[0]===1){
   return (
       <div className={"container_vertical"}>
-       <Honey/>
-       <Propolis/>
+          <Hotel/>
+          <Poliuretanowe/>
        <div className={"nav"}>
         <MenuSmall/>
        </div>
