@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-function Honey() {
+function Poliuretanowe() {
  return (
   <div className={"container_screen"}>
-     <div className={"honey"} id={"honey"}>
-      <div> to jest ekran honey </div>
+     <div className={"poliuretanowe"} id={"poliuretanowe"}>
+      <div> to jest ekran poliuretanowe </div>
      </div>
   </div>
  );
 }
-export default Honey;
+export default Poliuretanowe;

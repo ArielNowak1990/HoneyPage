@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-function Honey() {
+function Hotel() {
  return (
   <div className={"container_screen"}>
-     <div className={"honey"} id={"honey"}>
-      <div> to jest ekran honey </div>
+     <div className={"hotel"} id={"hotel"}>
+      <div> to jest ekran hotel </div>
      </div>
   </div>
  );
 }
-export default Honey;
+export default Hotel;
