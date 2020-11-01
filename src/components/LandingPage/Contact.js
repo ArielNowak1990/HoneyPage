@@ -15,7 +15,14 @@ function Contact() {
                 <div>telefon: 766 625 982</div>
                 <div>email: pasiekaKociolek@wp.pl</div>
             </div>
-
+            <div className={"contact_form"}>
+                <form onSubmit={submit}>
+                    <input type="text" placeholder={"podaj imię"}/>
+                    <input type="text" placeholder={"podaj mail"}/>
+                    <textarea name="message" id="" cols="30" rows="10">Tutaj wpisz treść wiadomości</textarea>
+                    <button>WYŚLIJ</button>
+                </form>
+            </div>
             <div className={"nav"}>
                 <MenuSmall/>
             </div>
