@@ -7,7 +7,9 @@ function Contact() {
     return (
         <div className={"container_contact"}>
             <div><Link to='/'><img src={logo} alt="logo" className={"logo logo_fixed"}/></Link></div>
+            <div className={"logo_name"}><h3><span>P</span>ASIEKA <span>K</span>OCIOLEK</h3></div>
             <div className={"contact"}>
+                <div className={"contact_date"}>
                 <h3>Dane kontaktowe:</h3>
                 <div>Gospodarstwo Pasieczne Kociołek</div>
                 <div>Jan Kociołek</div>
@@ -15,14 +17,16 @@ function Contact() {
                 <div>32-744 Lapczyca</div>
                 <div>telefon: 663 917 470</div>
                 <div>email: pasiekaKociolek@wp.pl</div>
-            </div>
-            <div className={"contact_form"}>
-                <form>
-                    <input type="text" placeholder={"podaj imię"}/>
-                    <input type="text" placeholder={"podaj mail"}/>
-                    <textarea name="message" id="" cols="30" rows="10">Tutaj wpisz treść wiadomości</textarea>
-                    <button>WYŚLIJ</button>
-                </form>
+                </div>
+                <div className={"contact_form"}>
+                    <form>
+                        <h3>Napisz do nas !</h3>
+                        <input type="text" placeholder={"podaj imię"}/>
+                        <input type="text" placeholder={"podaj mail"}/>
+                        <textarea name="message" id="" cols="30" rows="10">Tutaj wpisz treść wiadomości</textarea>
+                        <button>WYŚLIJ</button>
+                    </form>
+                </div>
             </div>
             <div className={"nav"}>
                 <MenuSmall/>
