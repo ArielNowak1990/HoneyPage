@@ -21,9 +21,9 @@ function Contact() {
                 <div className={"contact_form"}>
                     <form>
                         <h3>Napisz do nas !</h3>
-                        <input type="text" placeholder={"podaj imię"}/>
-                        <input type="text" placeholder={"podaj mail"}/>
-                        <textarea name="message" id="" cols="30" rows="10">Tutaj wpisz treść wiadomości</textarea>
+                        <input type="text" placeholder={"Twoje Imię"}/>
+                        <input type="text" placeholder={"Adres email"}/>
+                        <textarea name="message" id="">Tutaj wpisz treść wiadomości</textarea>
                         <button>WYŚLIJ</button>
                     </form>
                 </div>

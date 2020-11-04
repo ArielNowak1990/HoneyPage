@@ -142,7 +142,6 @@
     height: 30%;
     min-width: 300px;
     min-height: 300px;
-    margin-top: -35px;
     form{
       display: flex;
       flex-direction: column;
@@ -171,6 +170,11 @@
         border: 1px solid black;
         margin-bottom: 15px;
         width: calc(100% - 5px);
+        height: 15vh;
+        min-width: 200px;
+        color: orangered;
+        font-size: 1.15em;
+        line-height: 1.35;
       }
 
       button{
@@ -178,9 +182,14 @@
         border: 3px solid orangered;
         color: white;
         font-weight: bold;
-        font-size: 1.1em;
+        font-size: 1em;
         line-height: 1.25em;
-
+        height: 50px;
+        &:hover{
+          font-size: 1.2em;
+          font-weight: bold;
+          color: orangered;
+        }
       }
     }
   }
