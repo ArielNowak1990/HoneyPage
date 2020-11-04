@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Carousel from "./Carousel";
 import logo from "../../assets/Logo.png"
 import MenuSmall from "./MenuSmall";

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 function Odklad() {
  return (
   <div className={"container_screen"}>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 function Hotel() {
  return (
   <div className={"container_screen"}>
