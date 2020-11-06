@@ -211,6 +211,13 @@
         border-top: 3px solid orangered;
         color: white;
         font-weight: bold;
+        a{
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
         &:hover{
           font-size: 1.4em;
           color: orangered;
@@ -238,6 +245,13 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          a{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
           &:hover{
             font-size: 1.4em;
             color: orangered;
