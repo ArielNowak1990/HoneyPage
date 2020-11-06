@@ -94,6 +94,21 @@
 }
 
 .maps{
-  height: 400px;
-  width: 400px;
+  margin: 0 auto;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img{
+    padding: 20px;
+    width: 70vw;
+  }
+  div{
+    width: 29vw;
+    padding: 25px;
+    line-height: 1.4em;
+    font-size: 1.2em;
+  }
 }
