@@ -70,39 +70,71 @@ header {
     }
   }
 
-  .nav{
-    width: 100%;
-    height: 10vh;
-    display: flex;
+}
 
+.nav{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  .menu{
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    cursor: pointer;
-    .menu{
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-      height: 100%;
+    width: 100%;
+    height: 100%;
 
-      .active{
+    .active{
+      color: orangered;
+    }
+
+    ul{
+      width: 20%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      border-top: 3px solid orangered;
+      color: white;
+      font-weight: bold;
+      &:hover{
+        font-size: 1.4em;
         color: orangered;
       }
-
-      ul{
-        width: 20%;
+      a{
         height: 100%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: black;
-        border-top: 3px solid orangered;
-        color: white;
-        font-weight: bold;
-        &:hover{
-          font-size: 1.4em;
-          color: orangered;
-        }
+      }
+    }
+  }
+
+  .menu_small{
+    .menu_small_productMain,
+    .menu_small_productBee,
+    .menu_small_productOther{
+      width: 100%;
+      display: flex;
+      position: fixed;
+      height: 10vh;
+      bottom: 10vh;
+      left: 0;
+      background-color: black;
+      border-top: 3px solid orangered;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      li{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         a{
           height: 100%;
           width: 100%;
@@ -110,48 +142,17 @@ header {
           justify-content: center;
           align-items: center;
         }
-      }
-    }
-
-    .menu_small{
-      .menu_small_productMain,
-      .menu_small_productBee,
-      .menu_small_productOther{
-        width: 100%;
-        display: flex;
-        position: fixed;
-        height: 10vh;
-        bottom: 10vh;
-        left: 0;
-        background-color: black;
-        border-top: 3px solid orangered;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-        li{
-          width: 25%;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          a{
-            height: 100%;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          &:hover{
-            font-size: 1.4em;
-            color: orangered;
-          }
-          .active{
-            color: orangered;
-          }
+        &:hover{
+          font-size: 1.4em;
+          color: orangered;
+        }
+        .active{
+          color: orangered;
         }
       }
-      .none{
-        display: none;
-      }
+    }
+    .none{
+      display: none;
     }
   }
 }
