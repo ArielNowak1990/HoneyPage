@@ -77,9 +77,25 @@ function MenuSmall() {
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productBee"}>
-                    <li><Link to='/productsBee/#'>MATKI PSZCZELE</Link></li>
-                    <li><Link to='/productsBee/#'>ODKLADY</Link></li>
-                    <li><Link to='/productsBee/#'>RODZINY PRZEZIMOWANE</Link></li>
+                    <li><Link to='/productsBee/#mother'>MATKI PSZCZELE</Link></li>
+                    {/*<li><Link to='/productsBee/#odklady'>ODKLADY</Link></li>*/}
+                    <li> <Link
+                        to={{
+                            pathname: "/productsBee",
+                            search: "?sort=id",
+                            hash: "#odklady",
+                            state: { fromDashboard: true }
+                        }}
+                    >ODKLADY</Link></li>
+                    {/*<li><Link to='/productsBee/#family'>RODZINY PRZEZIMOWANE</Link></li>*/}
+                    <li> <Link
+                        to={{
+                            pathname: "/productsBee",
+                            search: "?sort=id",
+                            hash: "#family",
+                            state: { fromDashboard: true }
+                        }}
+                    >RODZINY PRZEZIMOWANE</Link></li>
                 </ul>
             </ul>
                 </>
@@ -98,8 +114,8 @@ function MenuSmall() {
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productOther"}>
-                    <li><Link to='/productsOther/#'>ULE POLIURETANOWE</Link></li>
-                    <li><Link to='/productsOther/#'>KARMNIKI</Link></li>
+                    <li><Link to='/productsOther/#poliuretanowe'>ULE POLIURETANOWE</Link></li>
+                    <li><Link to='/productsOther/#hotel'>KARMNIKI</Link></li>
                 </ul>
             </ul>
                 </>
