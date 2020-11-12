@@ -55,10 +55,10 @@ function MenuSmall() {
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productMain"}>
-                    <li><Link to='/productsMain/#honey'>MIODY</Link></li>
-                    <li><Link to='/productsMain/#propolis'>PROPOLIS</Link></li>
-                    <li><Link to='/productsMain/#cloud'>PYLEK</Link></li>
-                    <li><Link to='/productsMain/#alcohol'>PRZEGRYZKA WYSKOKOWA</Link></li>
+                    <li><a href='/productsMain/#honey'>MIODY</a></li>
+                    <li><a href='/productsMain/#propolis'>PROPOLIS</a></li>
+                    <li><a href='/productsMain/#cloud'>PYLEK</a></li>
+                    <li><a href='/productsMain/#alcohol'>PRZEGRYZKA WYSKOKOWA</a></li>
                 </ul>
             </ul>
                 </>
@@ -77,25 +77,9 @@ function MenuSmall() {
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productBee"}>
-                    <li><Link to='/productsBee/#mother'>MATKI PSZCZELE</Link></li>
-                    {/*<li><Link to='/productsBee/#odklady'>ODKLADY</Link></li>*/}
-                    <li> <Link
-                        to={{
-                            pathname: "/productsBee",
-                            search: "?sort=id",
-                            hash: "#odklady",
-                            state: { fromDashboard: true }
-                        }}
-                    >ODKLADY</Link></li>
-                    {/*<li><Link to='/productsBee/#family'>RODZINY PRZEZIMOWANE</Link></li>*/}
-                    <li> <Link
-                        to={{
-                            pathname: "/productsBee",
-                            search: "?sort=id",
-                            hash: "#family",
-                            state: { fromDashboard: true }
-                        }}
-                    >RODZINY PRZEZIMOWANE</Link></li>
+                    <li><a href='/productsBee/#mother'>MATKI PSZCZELE</a></li>
+                    <li><a href='/productsBee/#odklady'>ODKLADY</a></li>
+                    <li><a href='/productsBee/#family'>RODZINY PRZEZIMOWANE</a></li>
                 </ul>
             </ul>
                 </>
@@ -114,8 +98,8 @@ function MenuSmall() {
             </ul>
             <ul className={"menu_small"}>
                 <ul className={"menu_small_productOther"}>
-                    <li><Link to='/productsOther/#poliuretanowe'>ULE POLIURETANOWE</Link></li>
-                    <li><Link to='/productsOther/#hotel'>KARMNIKI</Link></li>
+                    <li><a href='/productsOther/#poliuretanowe'>ULE POLIURETANOWE</a></li>
+                    <li><a href='/productsOther/#hotel'>KARMNIKI</a></li>
                 </ul>
             </ul>
                 </>
