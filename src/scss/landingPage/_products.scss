@@ -165,10 +165,11 @@
     height: 50px;
     border-top: 5px solid orangered;
     border-left: 5px solid orangered;
-
+    z-index: 4;
   }
   .qube_hidden{
     position: fixed;
+    z-index: 4;
     transform: scale(0.7) rotate(225deg);
     bottom: 25vh;
     right: 100px;

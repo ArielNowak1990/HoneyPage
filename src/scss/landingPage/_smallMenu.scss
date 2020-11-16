@@ -1,5 +1,34 @@
 @import "src/scss/settings/mixins";
 
+  .mobile{
+    display: flex;
+    .qube_show{
+      position: fixed;
+      transform: scale(0.7) rotate(45deg);
+      bottom: 30px;
+      right: 100px;
+      width: 50px;
+      height: 50px;
+      border-top: 5px solid orangered;
+      border-left: 5px solid orangered;
+      z-index: 4;
+    }
+    .qube_hidden{
+      position: fixed;
+      z-index: 4;
+      transform: scale(0.7) rotate(225deg);
+      bottom: 25vh;
+      right: 100px;
+      width: 50px;
+      height: 50px;
+      border-top: 5px solid orangered;
+      border-left: 5px solid orangered;
+    }
+  }
+  .tablet_desktop{
+    display: none;
+  }
+
   .nav {
     a {
       color: inherit;
@@ -121,7 +150,14 @@
   }
 
 
+
 @include tablet(600px){
+  .mobile{
+    display: none;
+  }
+  .tablet_desktop{
+    display: block;
+  }
 .nav {
   a {
     color: inherit;
