@@ -2,39 +2,39 @@
 
   .mobile{
     display: flex;
-    .qube_show{
-      position: fixed;
-      transform: scale(0.7) rotate(45deg);
-      bottom: 30px;
-      right: 100px;
-      width: 50px;
-      height: 50px;
-      border-top: 5px solid orangered;
-      border-left: 5px solid orangered;
-      z-index: 4;
-    }
-    .qube_hidden{
-      position: fixed;
-      z-index: 4;
-      transform: scale(0.7) rotate(225deg);
-      bottom: 25vh;
-      right: 100px;
-      width: 50px;
-      height: 50px;
-      border-top: 5px solid orangered;
-      border-left: 5px solid orangered;
-    }
   }
   .tablet_desktop{
     display: none;
   }
+.qube_show{
+  position: fixed;
+  transform: scale(0.7) rotate(45deg);
+  bottom: 30px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  border-top: 5px solid orangered;
+  border-left: 5px solid orangered;
+  z-index: 4;
+}
+.qube_hidden{
+  position: fixed;
+  z-index: 4;
+  transform: scale(0.7) rotate(225deg);
+  bottom: 25vh;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  border-top: 5px solid orangered;
+  border-left: 5px solid orangered;
+}
 
   .nav {
     a {
       color: inherit;
     }
 
-    width: 100%;
+    width: 65%;
     height: 100%;
     z-index: 6;
     display: flex;
@@ -92,7 +92,7 @@
       .menu_small_productMain,
       .menu_small_productBee,
       .menu_small_productOther {
-        width: 49%;
+        width: 50%;
         height: 100%;
         display: flex;
         position: absolute;
@@ -100,6 +100,7 @@
         right: 0;
         background-color: black;
         border-top: 3px solid orangered;
+        border-left: 3px solid orangered;
         color: white;
         font-weight: bold;
         cursor: pointer;
@@ -107,7 +108,7 @@
 
         li {
           width: 100%;
-          height: 19vh;
+          height: calc(20% - 3px);
           border-top: 3px solid orangered;
           display: flex;
           justify-content: center;

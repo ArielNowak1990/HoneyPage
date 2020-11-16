@@ -33,12 +33,21 @@ header {
       font-size: 2em;
     }
     h3{
-      font-size: 2em;
+      font-size: 1.6em;
       margin-top: 5vh;
       height: 100%;
       border-bottom: 3px solid orangered;
-      span{
-        font-size: 2.4em;
+      span {
+        font-size: 2.1em;
+      }
+      @include tablet(650px) {
+        font-size: 2em;
+        margin-top: 5vh;
+        height: 100%;
+        border-bottom: 3px solid orangered;
+        span {
+          font-size: 2.4em;
+        }
       }
     }
   }
