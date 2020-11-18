@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Carousel from "./Carousel";
 import logo from "../../assets/Logo.png"
 import MenuSmall from "./MenuSmall";
-import {Link} from "react-router-dom";
+
 
 function HomeHeads() {
 
