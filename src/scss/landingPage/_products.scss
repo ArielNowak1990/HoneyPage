@@ -11,32 +11,32 @@
     background-image: url("../assets/honey.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-attachment: fixed;
     overflow-x: hidden;
-    display: flex;
-    justify-content: space-between;
-    .description,
-    .description2  {
+
+    .description{
       margin-left: 20px;
       margin-right: 30px;
+      margin-top: 20px;
       width: 50%;
+      max-width: 700px;
+      min-width: 640px;
+      background-color: rgba(0, 0, 0, 0.75);
+      border: 2px solid orangered;
+
       h3{
         color: orangered;
         font-size: 3em;
-        margin: 30px;
+        margin: 20px;
       }
       p{
         color: white;
         font-size: 1.3em;
-        margin: 15px;
-        line-height: 30px;
-      }
-    }
-    .description2{
-      margin-top: 30%;
-      p{
-        width: 100%;
+        margin: 12px;
+        line-height: 28px;
+        max-width: 700px;
+        min-width: 450px;
       }
     }
   }
@@ -51,11 +51,15 @@
     background-attachment: fixed;
     overflow-x: hidden;
 
-    .description,
-    .description2  {
+    .description{
       margin-left: 20px;
       margin-right: 30px;
+      margin-top: 20px;
       width: 50%;
+      max-width: 700px;
+      min-width: 450px;
+      background-color: rgba(255, 255, 255, 0.75);
+      border: 2px solid orangered;
       h3{
         color: orangered;
         font-size: 3em;
@@ -66,12 +70,8 @@
         font-size: 1.3em;
         margin: 15px;
         line-height: 30px;
-      }
-    }
-    .description2{
-      margin-top: 5%;
-      p{
-        width: 100%;
+        max-width: 700px;
+        min-width: 450px;
       }
     }
   }
@@ -86,11 +86,15 @@
     background-position: right;
     background-attachment: fixed;
 
-    .description,
-    .description2  {
+    .description{
       margin-left: 20px;
       margin-right: 30px;
+      margin-top: 10px;
       width: 50%;
+      max-width: 700px;
+      min-width: 450px;
+      background-color: rgba(0, 0, 0, 0.75);
+      border: 2px solid orangered;
       h3{
         color: orangered;
         font-size: 3em;
@@ -101,17 +105,10 @@
         font-size: 1.3em;
         margin: 15px;
         line-height: 30px;
-        width: 20vw;
+        max-width: 700px;
+        min-width: 450px;
       }
     }
-    .description2{
-      margin-top: 5%;
-      p{
-        width: 20vw;
-      }
-    }
-
-
   }
   .alcohol{
     height: 100vh;
@@ -120,25 +117,28 @@
     background-image: url("../assets/trojniak.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: right;
     background-attachment: fixed;
     overflow-x: hidden;
     position: relative;
     .description{
-
-      width: 99%;
-      height: 99%;
+      background-color: rgba(255, 255, 255, 0.75);
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 50%;
+      max-width: 700px;
+      min-width: 450px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-end;
+      border: 2px solid orangered;
+
       h3{
         color: orangered;
         font-size: 3em;
         margin: 30px;
       }
       p{
-        background-color: rgba(255, 255, 255, 0.76);
         padding: 20px;
         font-size: 1.3em;
         line-height: 30px;
