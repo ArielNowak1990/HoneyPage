@@ -1,3 +1,4 @@
+@import "src/scss/settings/mixins";
 .container_aboutUs{
   background-attachment: fixed;
   scroll-behavior: smooth;
@@ -5,14 +6,19 @@
   overflow-x: hidden;
 
 
-
   .logo_fixed{
     position: fixed;
-    transform: scale(0.7);
     top: 40px;
     right: 40px;
     background-color: rgba(255, 169, 2, 0.47);
     border-radius: 50%;
+    height: 12vh;
+    @include tablet (600px) {
+      height: 15vh;
+    }
+    @include desktop (800px) {
+      height: 20vh;
+    }
   }
 }
 

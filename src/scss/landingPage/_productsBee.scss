@@ -1,3 +1,4 @@
+@import "src/scss/settings/mixins";
 .container_vertical{
   background-attachment: fixed;
   scroll-behavior: smooth;
@@ -97,37 +98,42 @@
   }
 
 
-  .logo_fixed{
-    position: fixed;
-    transform: scale(0.7);
-    top: 40px;
-    right: 40px;
-    background-color: rgba(255, 169, 2, 0.47);
-    border-radius: 50%;
-  }
+  //.logo_fixed{
+  //  position: fixed;
+  //  transform: scale(0.7);
+  //  top: 40px;
+  //  right: 40px;
+  //  background-color: rgba(255, 169, 2, 0.47);
+  //  border-radius: 50%;
+  //  height: 12vh;
+  //  @include tablet (600px) {
+  //    height: 15vh;
+  //  }
+  //  @include desktop (800px) {
+  //    height: 20vh;
+  //  }
+  //}
 
-  .qube_show{
-    position: fixed;
-    transform: scale(0.7);
-    bottom: 30px;
-    right: 100px;
-    width: 50px;
-    height: 50px;
-    border-top: 5px solid orangered;
-    border-left: 5px solid orangered;
-    transform: rotate(45deg);
-  }
-  .qube_hidden{
-    position: fixed;
-    transform: scale(0.7);
-    bottom: 25vh;
-    right: 100px;
-    width: 50px;
-    height: 50px;
-    border-top: 5px solid orangered;
-    border-left: 5px solid orangered;
-    transform: rotate(225deg);
-  }
+  //.qube_show{
+  //  position: fixed;
+  //  transform: scale(0.7) rotate(45deg);
+  //  bottom: 30px;
+  //  right: 100px;
+  //  width: 50px;
+  //  height: 50px;
+  //  border-top: 5px solid orangered;
+  //  border-left: 5px solid orangered;
+  //}
+  //.qube_hidden{
+  //  position: fixed;
+  //  transform: scale(0.7) rotate(225deg);
+  //  bottom: 25vh;
+  //  right: 100px;
+  //  width: 50px;
+  //  height: 50px;
+  //  border-top: 5px solid orangered;
+  //  border-left: 5px solid orangered;
+  //}
 
 
   .hidden{
