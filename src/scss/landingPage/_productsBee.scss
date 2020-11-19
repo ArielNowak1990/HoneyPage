@@ -15,6 +15,10 @@
     background-attachment: fixed;
     overflow-x: hidden;
 
+    .text_container{
+      background-color: black;
+    }
+
     h3{
       color: orangered;
       font-size: 3em;
@@ -40,6 +44,9 @@
     background-position: right;
     background-attachment: fixed;
     overflow-x: hidden;
+    .text_container{
+      background-color: rgba(255, 255, 255, 0.75);
+    }
 
     h3{
       color: orangered;
@@ -64,6 +71,9 @@
     background-repeat: no-repeat;
     background-position: right;
     background-attachment: fixed;
+    .text_container{
+      background-color: rgba(255, 255, 255, 0.75);
+    }
 
     h3{
       color: orangered;
@@ -71,7 +81,6 @@
       margin: 30px;
     }
     p{
-      background-color: rgba(255, 255, 255, 0.76);
       padding: 20px;
       font-size: 1.3em;
       line-height: 30px;
