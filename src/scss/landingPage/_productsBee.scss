@@ -5,7 +5,7 @@
 .container_vertical{
   background-attachment: fixed;
   scroll-behavior: smooth;
-  width: calc(100vw - 17px);
+  width: calc(100%);
   overflow-x: hidden;
 
   .family{
@@ -22,9 +22,12 @@
     .text_container{
       background-color: black;
       border: 2px solid orangered;
+      margin: 0 auto;
       margin-top: 15px;
-      margin-left: 35px;
-      margin-right: 15px;
+      max-width: 90%;
+      @include tablet (750px){
+        margin-left: 25px;
+      }
     }
 
     h3{
@@ -54,9 +57,12 @@
     .text_container{
       background-color: rgba(255, 255, 255, 0.75);
       border: 2px solid orangered;
+      margin: 0 auto;
       margin-top: 15px;
-      margin-left: 35px;
-      margin-right: 15px;
+      max-width: 90%;
+      @include tablet (750px){
+        margin-left: 25px;
+      }
     }
 
     h3{
@@ -81,11 +87,14 @@
     background-position: right;
     background-attachment: fixed;
     .text_container{
+      margin: 0 auto;
       margin-top: 15px;
-      margin-left: 35px;
-      margin-right: 15px;
       background-color: rgba(255, 255, 255, 0.75);
       border: 2px solid orangered;
+      max-width: 90%;
+      @include tablet (750px){
+        margin-left: 25px;
+      }
     }
 
     h3{

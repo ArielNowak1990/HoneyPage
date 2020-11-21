@@ -2,7 +2,7 @@
 .container_vertical{
   background-attachment: fixed;
   scroll-behavior: smooth;
-  width: calc(100vw - 17px);
+  width: calc(100%);
   overflow-x: hidden;
 
   .hotel{
@@ -17,6 +17,12 @@
     .text_container{
       background-color: rgba(0, 0, 0, 0.75);
       border: 2px solid orangered;
+      max-width: 90%;
+      margin: 0 auto;
+      @include tablet (700px){
+        margin-left: 25px;
+        max-width: 70%;
+      }
     }
     h3{
       color: orangered;
@@ -31,7 +37,7 @@
       margin: 20px;
       font-size: 1.0em;
       line-height: 30px;
-      width: 60vw;
+      width: 80%;
       @include tablet (750px){
         font-size: 1.1em;
       }
@@ -52,6 +58,12 @@
     .text_container{
       background-color: rgba(0, 0, 0, 0.75);
       border: 2px solid orangered;
+      max-width: 90%;
+      margin: 0 auto;
+      @include tablet (700px){
+        margin-left: 25px;
+        max-width: 70%;
+      }
     }
     h3{
       color: orangered;
@@ -66,7 +78,7 @@
       margin: 20px;
       font-size: 1.3em;
       line-height: 30px;
-      width: 60vw;
+      width: 80%;
       @include tablet (750px){
         font-size: 1.1em;
       }
