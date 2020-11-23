@@ -2,7 +2,7 @@
 .container_aboutUs{
   background-attachment: fixed;
   scroll-behavior: smooth;
-  width: calc(100vw - 17px);
+  width: calc(100%);
   overflow-x: hidden;
 
 
@@ -30,12 +30,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   img{
-    padding: 20px;
-    width: 70vw;
+    width: 60vw;
   }
   div{
     width: 29vw;
+    min-width: 200px;
     padding: 25px;
     line-height: 1.4em;
     font-size: 1.2em;
