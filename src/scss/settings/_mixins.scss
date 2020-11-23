@@ -15,3 +15,9 @@
     @content;
   }
 }
+
+@mixin height-min($height-min: 550px) {
+  @media screen and (min-height: #{height-min}) {
+    @content;
+  }
+}
