@@ -33,8 +33,11 @@
       color: orangered;
       display: inline-block;
       padding: 20px;
-      font-size: 3em;
+      font-size: 2em;
       margin: 20px;
+      @include tablet (700px){
+        font-size: 3em;
+      }
     }
     p{
       color: white;
@@ -79,8 +82,11 @@
       color: orangered;
       display: inline-block;
       padding: 20px;
-      font-size: 3em;
+      font-size: 2em;
       margin: 20px;
+      @include tablet (700px){
+        font-size: 3em;
+      }
     }
     p{
       color: white;

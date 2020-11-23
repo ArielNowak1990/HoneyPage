@@ -39,8 +39,11 @@
 
       h3{
         color: orangered;
-        font-size: 3em;
+        font-size: 2em;
         margin: 20px;
+        @include tablet (700px){
+          font-size: 3em;
+        }
       }
       p{
         color: white;
@@ -85,8 +88,11 @@
       }
       h3{
         color: orangered;
-        font-size: 3em;
+        font-size: 2em;
         margin: 30px;
+        @include tablet (700px){
+          font-size: 3em;
+        }
       }
       p{
         color: black;
@@ -130,8 +136,11 @@
       }
       h3{
         color: orangered;
-        font-size: 3em;
+        font-size: 2em;
         margin: 30px;
+        @include tablet (700px){
+          font-size: 3em;
+        }
       }
       p{
         color: white;
@@ -179,8 +188,11 @@
 
       h3{
         color: orangered;
-        font-size: 3em;
+        font-size: 2em;
         margin: 30px;
+        @include tablet (700px){
+          font-size: 3em;
+        }
       }
       p{
         padding: 20px;
