@@ -6,8 +6,8 @@
   overflow-x: hidden;
 
   .honey{
-    height: 100vh;
     width: 100vw;
+    min-height: 100vh;
     margin: 0 auto;
     background-color: black;
     background-image: url("../assets/honey.jpg");
@@ -16,6 +16,10 @@
     background-position: right;
     background-attachment: fixed;
     overflow-x: hidden;
+
+    @include tablet (750px){
+      height: 100vh;
+    }
 
     .description{
       margin: 0 auto;

@@ -10,23 +10,29 @@
   position: fixed;
   transform: scale(0.7) rotate(45deg);
   bottom: 30px;
-  right: 100px;
+  right: 40px;
   width: 50px;
   height: 50px;
   border-top: 5px solid orangered;
   border-left: 5px solid orangered;
   z-index: 4;
+  @include tablet (600px){
+    right: 100px;
+  }
 }
 .qube_hidden{
   position: fixed;
   z-index: 4;
   transform: scale(0.7) rotate(225deg);
   bottom: 25vh;
-  right: 100px;
+  right: 40px;
   width: 50px;
   height: 50px;
   border-top: 5px solid orangered;
   border-left: 5px solid orangered;
+  @include tablet (600px){
+    right: 100px;
+  }
 }
 
   .nav {
@@ -179,9 +185,7 @@
   justify-content: space-around;
   align-items: center;
   cursor: pointer;
-  @include height-min{
-    height: 10vh;
-  }
+
   .menu {
     display: flex;
     justify-content: space-around;
@@ -245,10 +249,6 @@
       cursor: pointer;
       flex-direction: row;
 
-      @include height-min{
-        height: 10vh;
-        bottom: 10vh;
-      }
 
       li {
         width: 25%;

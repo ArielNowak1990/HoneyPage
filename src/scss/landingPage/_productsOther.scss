@@ -6,7 +6,7 @@
   overflow-x: hidden;
 
   .hotel{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: white;
     background-image: url("../assets/hotel.jpg");
@@ -14,6 +14,11 @@
     background-position: center;
     background-attachment: fixed;
     overflow-x: hidden;
+
+    @include tablet (750px){
+      height: 100vh;
+    }
+
     .text_container{
       background-color: rgba(0, 0, 0, 0.75);
       border: 2px solid orangered;
@@ -47,7 +52,7 @@
     }
   }
   .poliuretanowe{
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: white;
     background-image: url("../assets/poliuretanowy.jpg");
@@ -55,6 +60,11 @@
     background-position: right;
     background-attachment: fixed;
     overflow-x: hidden;
+
+    @include tablet (750px){
+      height: 100vh;
+    }
+
     .text_container{
       background-color: rgba(0, 0, 0, 0.75);
       border: 2px solid orangered;
@@ -103,26 +113,26 @@
     }
   }
 
-  .qube_show{
-    position: fixed;
-    transform: scale(0.7) rotate(45deg);
-    bottom: 30px;
-    right: 100px;
-    width: 50px;
-    height: 50px;
-    border-top: 5px solid orangered;
-    border-left: 5px solid orangered;
-  }
-  .qube_hidden{
-    position: fixed;
-    transform: scale(0.7) rotate(225deg);
-    bottom: 25vh;
-    right: 100px;
-    width: 50px;
-    height: 50px;
-    border-top: 5px solid orangered;
-    border-left: 5px solid orangered;
-  }
+  //.qube_show{
+  //  position: fixed;
+  //  transform: scale(0.7) rotate(45deg);
+  //  bottom: 30px;
+  //  right: 100px;
+  //  width: 50px;
+  //  height: 50px;
+  //  border-top: 5px solid orangered;
+  //  border-left: 5px solid orangered;
+  //}
+  //.qube_hidden{
+  //  position: fixed;
+  //  transform: scale(0.7) rotate(225deg);
+  //  bottom: 25vh;
+  //  right: 100px;
+  //  width: 50px;
+  //  height: 50px;
+  //  border-top: 5px solid orangered;
+  //  border-left: 5px solid orangered;
+  //}
 
   .hidden{
     display: none;
